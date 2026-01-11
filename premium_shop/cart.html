@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Корзина | PremiumShop</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+  <div class="logo">PremiumShop</div>
+  <nav><a href="index.html">← Назад до товарів</a></nav>
+</header>
+
+<main class="container">
+  <h1 class="title">Ваша корзина</h1>
+
+  <div id="cart-content" class="cart-items" style="margin-bottom: 40px; font-size: 18px; line-height: 1.5;"></div>
+
+  <form id="order-form" class="order-form">
+    <input name="name" placeholder="Ім'я" required>
+    <input name="phone" placeholder="Телефон" required>
+    <textarea name="comment" placeholder="Коментар"></textarea>
+    <button class="btn-buy" type="submit">Оформити замовлення</button>
+  </form>
+</main>
+
+<footer class="footer"><p>PremiumShop © 2026</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
